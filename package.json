@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "cypress": "^9.6.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -22,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "cypress" : "cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -53,7 +55,7 @@
       "last 1 safari version"
     ]
   },
-  "prettier" : {
+  "prettier": {
     "arrowParens": "avoid",
     "bracketSameLine": false,
     "singleQuote": true,
